@@ -1,0 +1,32 @@
+h1 {
+    text-align: left;
+    color: Black;
+}
+
+mat-list-item {
+    background-color:#fff ;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 8px;
+    border-width: 50px;
+    margin-right: 20px;
+    line-height: 50px;
+}
+mat-list-item  a span {
+    color: #00A8FF;
+    display: inline-block;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+
+
+button {
+    background-color: #ff6738;
+    padding: 1px;
+    float: left;
+    line-height: 20px;
+    
+    
+}

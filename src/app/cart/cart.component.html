@@ -1,0 +1,11 @@
+<h1>Items in Your Cart</h1>
+<mat-list>
+        <mat-list-item *ngFor = 'let c of cartitems'>
+                  
+            <a><span class='name'>{{c.name}}</span> <b>&#8377;{{c.price}}</b>  </a>
+             <button mat-button (click)='removeitem(c)'>Remove</button>
+        
+                  
+        </mat-list-item>
+</mat-list>
+    <p> Total Amount: &#8377; {{Total()}}</p>

@@ -1,0 +1,13 @@
+
+        <h1> Foodkart Menu</h1>
+        <mat-list>
+            <mat-list-item *ngFor = 'let i of it'>
+                
+                    <a><span class='name'>{{i.name}}</span> <b>&#8377;{{i.price}}</b></a>
+                    <button mat-button (click)=addtocart(i)> Buy </button>
+                
+            </mat-list-item>
+        </mat-list>
+    
+    
+

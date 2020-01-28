@@ -1,0 +1,27 @@
+
+  
+
+  .toolbar {
+    height: 60px;
+    margin: -8px;
+    display: flex;
+    align-items: center;
+    background-color: #ff6738;
+    color: white;
+    font-weight: 600;
+  }
+  .name {
+    width: 87%;
+    font-size: 120%;
+  }
+
+
+  .toolbar img {
+    margin: 0 16px;
+  }
+  .toolbar a img {
+   padding: 5px;
+  }
+  
+
+ 
